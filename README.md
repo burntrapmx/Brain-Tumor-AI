@@ -15,8 +15,8 @@ Class 2: No Tumor
 
 Class 3: Pituitar
 
-
-![add image descrition here](direct image link here)
+Image showing how the end result should look like:
+(https://1drv.ms/v/c/82d376e676e011fa/IQD_kjM3V3RzTZ-WTzY6l-XRAbo0avH6fdi9tgOrd5tsV1g?e=m1RVmt)
 
 ## The Algorithm
 
@@ -35,3 +35,6 @@ after that, you drag the image you want to check for tumors from your dowloads f
 "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/(name of one of the subfolders of test you inputed it in)/(name of the image you imported).jpg (desired name for the output).jp"
 
 , wait, and then the finished result will appear in there
+
+video explanation: 
+https://1drv.ms/v/c/82d376e676e011fa/IQD_kjM3V3RzTZ-WTzY6l-XRAbo0avH6fdi9tgOrd5tsV1g?e=m1RVmt
